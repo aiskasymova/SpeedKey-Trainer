@@ -6,7 +6,6 @@ from Globals import Globals as gb
 from User import User
 from Statistics import Statistics
 
-
 class Game:
     def __init__(self):
         self.running = True

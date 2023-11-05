@@ -40,4 +40,4 @@ class User:
                 pass
         else:
             self.error_count += 1
-            self.heat_map[letter] += 1
+            self.heat_map[self.prompt[self.prompt_ptr]] += 1

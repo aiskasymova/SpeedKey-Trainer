@@ -2,6 +2,7 @@ from collections import defaultdict
 
 
 class User:
+
     def __init__(self, file_name):
         self.list_of_sentences = []
         self.prompt = self.get_sentence(file_name)

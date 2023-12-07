@@ -1,7 +1,5 @@
 pygame
-time
 numpy
-sys
 matplotlib.pyplot
-pandas as pd
-subprocess
+pandas
+seaborn
